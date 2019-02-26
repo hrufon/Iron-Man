@@ -1,6 +1,11 @@
-html,body {
+html {
 background-size: cover;
 height: 100%;
+overflow: hidden;
+}
+
+body {
+height: 80%;
 overflow: hidden;
 }
   
@@ -37,7 +42,7 @@ background-image: linear-gradient(to right, #1b1a20 , #373743);
 .content{
 position:absolute;
 width:940px;
-height: 480px;  
+height:80%;  
 }
 
 .content1{
