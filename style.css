@@ -22,8 +22,6 @@ background-size: cover;
 
 .container{
 display: flex;
-flex-direction: row;
-align-items: stretch;
 min-width: 940px;
 width: 80%;
 height: 100%;
@@ -60,7 +58,7 @@ margin-left: 50px;
 }
 
 .content h1{
-position: absolute;
+display: flex;  
 margin-left: 50%;
 margin-top: -6%;
 font-weight: 2em;
@@ -84,7 +82,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 transform: rotate(-90deg);
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 45%;
 margin-left: 2%;
 }
@@ -96,7 +94,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 transform: rotate(-90deg);
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 26%;
 margin-left: 2%; 
 }
@@ -108,7 +106,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 transform: rotate(-90deg);
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 10%;
 margin-left: 2%;  
 }
@@ -120,7 +118,7 @@ font-weight: bold;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 8%;
 margin-left: 3%; 
 box-shadow: 10px 10px 10px; 
@@ -132,7 +130,7 @@ color: #fff;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 8%;
 margin-left: 46%;
 box-shadow: 10px 10px 10px; 
@@ -145,7 +143,7 @@ color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 38%;
 margin-left: 5%;
 }
@@ -156,7 +154,7 @@ color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 39.3%;
 margin-left: 8%;
 }
@@ -167,7 +165,7 @@ color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 42%;
 margin-left: 5%;
 }
@@ -178,7 +176,7 @@ color: #fff;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
+display: flex;
 margin-top: 42%;
 margin-left: 75.5%;
 }
@@ -200,7 +198,7 @@ height: 5px;
 background-color: #ffffff;
 border-radius: 50%;
 display: block;
-position: absolute;
+display: flex;
 margin-left: 2.8%; 
 margin-top: 29%;
 }
@@ -211,7 +209,7 @@ height: 5px;
 background-color: #ffffff;
 border-radius: 50%;
 display: block;
-position: absolute;
+display: flex;
 margin-left: 93%; 
 margin-top: 42.5%;
 }
@@ -226,7 +224,7 @@ margin-top: 1.5%;
 width: 20%;
 background-color: #727279;
 border: 1px solid #727279;
-position: absolute;
+display: flex;
 margin-left: 2%;
 margin-top: 41.5%;
 }
