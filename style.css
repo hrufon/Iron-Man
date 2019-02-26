@@ -5,8 +5,10 @@ overflow: hidden;
 }
 
 body {
+width: 80;
 height: 80%;
 overflow: hidden;
+margin:0 auto;
 }
   
 html::after {
