@@ -24,7 +24,6 @@ background-size: cover;
 display: flex;  
 flex-flow: row wrap;
 font-weight: bold;
-text-align: center;
 min-width: 940px;
 height: 100%;
 margin-top: 5%;
