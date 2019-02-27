@@ -49,10 +49,13 @@ margin-left: 7%;
 background-image: url(img/captain-america-vs-iron-man.png);
 background-position: right;
 background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
 }
 
 nav {
-position: relative;
 margin-left: 50px;
 }
 
@@ -206,9 +209,12 @@ margin-top: 42.5%;
 }
 
 img {
-position: absolute;
 margin-left: 15%;
 margin-top: 1.5%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
 }
 
 .hr{
