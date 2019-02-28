@@ -1,7 +1,7 @@
 html,body {
 background-size: cover;
-height: 90%;
 overflow: hidden;
+height: 100vh;
 }
   
 html::after {
@@ -14,257 +14,227 @@ bottom: 0;
 right: 0;
 position: absolute;
 z-index: -1;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
 }
 
 .container{
-display: flex;  
-flex-flow: row wrap;
-font-weight: bold;
-min-width: 940px;
-height: 100%;
-margin-top: 5%;
-margin-left: auto;
-margin-right: auto;
-background-color: #1a191f; 
+width:100%;
+height: 520px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top:50%;
+left:50%;
+-webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+ transform: translate(-50%, -50%);
 background-image: linear-gradient(to right, #1b1a20 , #373743);
 }
 
-.content{
-position:absolute;
-width:940px;
-height: 480px;  
+.wrapper {
+width:100%;
+height: 520px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: fixed;
+top:50%;
+left:50%;
+-webkit-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+transform: translate(-50%, -50%);
 }
-
-.content1{
-background-color: #fff;
-box-shadow: 10px 10px;
-position: relative;
-width: 940px;
+    
+.left {
+width: 30%;
 height: 480px;
-margin: 0 auto;
-margin-top: -0.5%;
-margin-left: 7%;  
+background: #fff;
+box-shadow: 10px 5px 40px #000;
+}
+      
+.right {
+width: 60%;
+height: 480px;
 background-image: url(img/captain-america-vs-iron-man.png);
-background-position: right;
-background-repeat:no-repeat;
+background-size:cover;
+box-shadow: 10px 5px 40px #000;
+}
+        
+.wrapper div {
+height: 90%;
 }
 
-nav {
-position: relative;
-margin-left: 50px;
+.container div {
+height: 90%;
 }
 
-.content h1{
-position: absolute;
-margin-left: 50%;
-margin-top: -6%;
+.container nav {
+position: fixed;
+margin-left: -48.6%;
+margin-top: -2.5%;
+}
+
+.container h1{
 font-weight: 2em;
 color: red;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+transform: translate(-50%, -50%);
 }
-
-.content p{
-position: absolute;
-margin-left: 52.5%;
-margin-top: -4%;
+    
+.container p{
 font-weight: 3em;
 color: #fff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+transform: translate(-20%, -50%);
 }
 
-.content p1{
-font-size: 0.8em;
-color: #fff;
-font-family: Verdana, Geneva, Tahoma, sans-serif; 
-transform: rotate(-90deg);
-transform-origin: left top 0;
-float: left;
-position: absolute;
-margin-top: 45%;
-margin-left: 2%;
-}
-
-.content p2{
-font-size: 0.8em;
+.container p7{
+font-size: 0.7em;
 color: #fff;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-transform: rotate(-90deg);
-transform-origin: left top 0;
-float: left;
-position: absolute;
-margin-top: 26%;
-margin-left: 2%; 
+position: fixed;
+margin-left: 350px;
+margin-top: -10px;
 }
 
-.content p3{
-font-size: 0.8em;
-color: red;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-transform: rotate(-90deg);
-transform-origin: left top 0;
-float: left;
-position: absolute;
-margin-top: 10%;
-margin-left: 2%;  
-}
-
-.content p4{
+.left p2{
 font-size:6em;
 color: #e03d24;
 font-weight: bold;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-transform-origin: left top 0;
-float: left;
-position: absolute;
-margin-top: 8%;
-margin-left: 3%; 
-box-shadow: 10px 10px 10px; 
+position: fixed;
+margin-top: 10%;
+margin-left: 5%;
 }
 
-.content p5{
+.right p3{
 font-size:6em;
 color: #fff;
+font-weight: bold;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-transform-origin: left top 0;
+position: fixed;
+margin-top: 10%;
+margin-left: 5%;
+}
+    
+.wrapper p4{
+font-size: 0.6em;
+color: red;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+justify-content: center;
+writing-mode: vertical-rl;
+text-orientation: unset;
+transform: rotate(180deg);
+transform: translate(-250%, 130%);
 float: left;
-position: absolute;
-margin-top: 8%;
-margin-left: 46%;
-box-shadow: 10px 10px 10px; 
 }
 
-.content p6{
+.wrapper p5{
+font-size: 0.6em;
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+justify-content: center;
+writing-mode: vertical-rl;
+text-orientation: unset;
+transform: rotate(180deg);
+transform: translate(-50%, 330%);
+float: left;
+}
+
+.wrapper p6{
+font-size: 0.6em;
+color: #fff;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+justify-content: center;
+writing-mode: vertical-rl;
+text-orientation: unset;
+transform: rotate(180deg);
+transform: translate(-150%, 280%);
+float: left;
+}
+
+.right p8{
+font-size:0.6em;
+color: #fff;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: fixed;
+margin-left: -16%;
+margin-top: 32%;
+}
+
+.right p9{
 font-size:1.5em;
 font-weight: bold;
 color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
-margin-top: 38%;
-margin-left: 5%;
+position: fixed;
+margin-top: 30%;
+margin-left: -80%;
 }
-
-.content p7{
+    
+.right p10{
 font-size:0.8em;
 color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
-margin-top: 39.3%;
-margin-left: 8%;
+position: fixed;
+margin-top: 31%;
+margin-left: -77.5%;
 }
-
-.content p8{
-font-size:0.8em;
-color: #727279;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-transform-origin: left top 0;
-float: left;
-position: absolute;
-margin-top: 42%;
-margin-left: 5%;
-}
-
-.content p9{
+    
+.right p11{
 font-size:0.6em;
-color: #fff;
+color: #727279;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 transform-origin: left top 0;
 float: left;
-position: absolute;
-margin-top: 42%;
-margin-left: 75.5%;
-}
-
-.content .circle {
-width: 5px;
-height: 5px;
-background-color: #ffffff;
-border-radius: 50%;
-display: block;
-position: absolute;
-margin-left: 2.8%; 
-margin-top: 13.5%;
-}
-
-.content .circle1 {
-width: 5px;
-height: 5px;
-background-color: #ffffff;
-border-radius: 50%;
-display: block;
-position: absolute;
-margin-left: 2.8%; 
-margin-top: 29%;
-}
-
-.content .circle2 {
-width: 5px;
-height: 5px;
-background-color: #ffffff;
-border-radius: 50%;
-display: block;
-position: absolute;
-margin-left: 93%; 
-margin-top: 42.5%;
+position: fixed;
+margin-top: 33%;
+margin-left: -80%;
 }
 
 img {
-position: absolute;
-margin-left: 15%;
-margin-top: 1.5%;
+transform: translate(-50%, -61%);
 }
 
-.hr{
-width: 20%;
-background-color: #727279;
-border: 1px solid #727279;
-position: absolute;
-margin-left: 2%;
-margin-top: 41.5%;
+.wrapper .circle {
+width: 5px;
+height: 5px;
+background-color: #ffffff;
+border-radius: 50%;
+display: block;
+position: fixed;
+margin-top: 12.5%;
 }
 
-.hr1{
-width: 6%;
-background-color: #e03d24;
-border: 2px solid #e03d24;
-position: absolute;
-margin-left: 2%;
-margin-top: 5%
+.wrapper .circle1 {
+width: 5px;
+height: 5px;
+background-color: #ffffff;
+border-radius: 50%;
+display: block;
+position: fixed;
+margin-top: 23%;
 }
 
 .button {
 background-color: #e03d24;
-position: absolute;
-margin-left: 75%;
-margin-top: 35%; 
+margin-left: 60%;
+margin-top: 45%; 
 border: none;
 color: white;
-padding: 15px 32px;
+padding: 10px 35px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
-font-size: 16px;
+font-size: 1em;
 cursor: pointer;
-}
-
-i {
-border: solid #fff;
-border-width: 0 3px 3px 0;
-display: inline-block;
-padding: 3px;
-}
-  
-.right {
-transform: rotate(-45deg);
--webkit-transform: rotate(-45deg);
-position: absolute;
-margin-left: 94.3%; 
-margin-top: 42.3%;
+box-shadow: 10px 5px 40px #000;
 }
